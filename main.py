@@ -6,10 +6,6 @@ import requests
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.common.exceptions import ElementClickInterceptedException, NoSuchElementException
-from time import sleep
-
 
 chrome_driver_path = "/Users/mhatem/Documents/Development/chromedriver"
 FORM_LINK = os.environ["FORM_LINK"]
